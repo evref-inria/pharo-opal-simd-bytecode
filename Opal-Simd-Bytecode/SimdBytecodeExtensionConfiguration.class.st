@@ -1,10 +1,11 @@
 Class {
-	#name : #SimdBytecodeExtensionConfiguration,
-	#superclass : #BytecodeMappedInlinePrimitiveConfiguration,
-	#category : #'Opal-Simd-Bytecode'
+	#name : 'SimdBytecodeExtensionConfiguration',
+	#superclass : 'BytecodeMappedInlinePrimitiveConfiguration',
+	#category : 'Opal-Simd-Bytecode',
+	#package : 'Opal-Simd-Bytecode'
 }
 
-{ #category : #configuring }
+{ #category : 'configuring' }
 SimdBytecodeExtensionConfiguration class >> configure: instructionClient [
 
 	{ 

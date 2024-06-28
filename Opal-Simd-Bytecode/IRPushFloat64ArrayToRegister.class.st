@@ -1,10 +1,11 @@
 Class {
-	#name : #IRPushFloat64ArrayToRegister,
-	#superclass : #IRInstruction,
-	#category : #'Opal-Simd-Bytecode'
+	#name : 'IRPushFloat64ArrayToRegister',
+	#superclass : 'IRInstruction',
+	#category : 'Opal-Simd-Bytecode',
+	#package : 'Opal-Simd-Bytecode'
 }
 
-{ #category : #visiting }
+{ #category : 'visiting' }
 IRPushFloat64ArrayToRegister >> accept: aVisitor [
 	
 	^ aVisitor visitPushFloat64ArrayToRegister: self

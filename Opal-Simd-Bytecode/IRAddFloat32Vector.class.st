@@ -1,10 +1,11 @@
 Class {
-	#name : #IRAddFloat32Vector,
-	#superclass : #IRInstruction,
-	#category : #'Opal-Simd-Bytecode'
+	#name : 'IRAddFloat32Vector',
+	#superclass : 'IRInstruction',
+	#category : 'Opal-Simd-Bytecode',
+	#package : 'Opal-Simd-Bytecode'
 }
 
-{ #category : #visiting }
+{ #category : 'visiting' }
 IRAddFloat32Vector >> accept: aVisitor [
 	
 	^ aVisitor visitAddFloat32Vector: self

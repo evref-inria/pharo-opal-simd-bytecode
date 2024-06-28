@@ -1,10 +1,11 @@
 Class {
-	#name : #SimdBytecodeTest,
-	#superclass : #TestCase,
-	#category : #'Opal-Simd-Bytecode-Tests'
+	#name : 'SimdBytecodeTest',
+	#superclass : 'TestCase',
+	#category : 'Opal-Simd-Bytecode-Tests',
+	#package : 'Opal-Simd-Bytecode-Tests'
 }
 
-{ #category : #tests }
+{ #category : 'tests' }
 SimdBytecodeTest >> testFloat32ArraySumUsingVectorBytecode [
 	| x y result z |
 
@@ -17,7 +18,7 @@ SimdBytecodeTest >> testFloat32ArraySumUsingVectorBytecode [
 	self assertCollection: result equals: (Float32Array withAll: #(11.0 22.0 33.0 44.0)).
 ]
 
-{ #category : #tests }
+{ #category : 'tests' }
 SimdBytecodeTest >> testFloat64ArraySumUsingVectorBytecode [
 	| x y result z |
 

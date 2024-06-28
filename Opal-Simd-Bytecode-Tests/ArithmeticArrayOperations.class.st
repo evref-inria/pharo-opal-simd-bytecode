@@ -1,10 +1,11 @@
 Class {
-	#name : #ArithmeticArrayOperations,
-	#superclass : #Object,
-	#category : #'Opal-Simd-Bytecode-Tests'
+	#name : 'ArithmeticArrayOperations',
+	#superclass : 'Object',
+	#category : 'Opal-Simd-Bytecode-Tests',
+	#package : 'Opal-Simd-Bytecode-Tests'
 }
 
-{ #category : #adding }
+{ #category : 'adding' }
 ArithmeticArrayOperations >> addFloat32Vector: arg1 with: arg2 intoVector: result [
 
 	<opalBytecodeMethod>
@@ -57,7 +58,7 @@ ArithmeticArrayOperations >> addFloat32Vector: arg1 with: arg2 intoVector: resul
 		 ].
 ]
 
-{ #category : #adding }
+{ #category : 'adding' }
 ArithmeticArrayOperations >> addFloat32VectorPrimitive: term1 with: term2 intoVector: result [
 
 	<primitive: 575 error: ec>
@@ -66,7 +67,7 @@ ArithmeticArrayOperations >> addFloat32VectorPrimitive: term1 with: term2 intoVe
 	  result at: i put: (term1 at: i) + (term2 at: i) ]"
 ]
 
-{ #category : #adding }
+{ #category : 'adding' }
 ArithmeticArrayOperations >> addFloat64Vector: arg1 with: arg2 intoVector: result [
 
 	<opalBytecodeMethod>
@@ -119,7 +120,7 @@ ArithmeticArrayOperations >> addFloat64Vector: arg1 with: arg2 intoVector: resul
 		 ].
 ]
 
-{ #category : #adding }
+{ #category : 'adding' }
 ArithmeticArrayOperations >> addFloat64VectorPrimitive: term1 with: term2 intoVector: result [
 
 	<primitive: 574 error: ec>
@@ -128,7 +129,7 @@ ArithmeticArrayOperations >> addFloat64VectorPrimitive: term1 with: term2 intoVe
 	  result at: i put: (term1 at: i) + (term2 at: i) ]"
 ]
 
-{ #category : #adding }
+{ #category : 'adding' }
 ArithmeticArrayOperations >> addVectorScalar: term1 with: term2 intoVector: result [
 
 	^ 1 to: term1 size do: [ :i | 

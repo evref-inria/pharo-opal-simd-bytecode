@@ -1,1 +1,1 @@
-Package { #name : #'Opal-Simd-Bytecode-Tests' }
+Package { #name : 'Opal-Simd-Bytecode-Tests' }

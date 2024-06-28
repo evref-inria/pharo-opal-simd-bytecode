@@ -1,6 +1,6 @@
-Extension { #name : #IRBytecodeGenerator }
+Extension { #name : 'IRBytecodeGenerator' }
 
-{ #category : #'*Opal-Simd-Bytecode' }
+{ #category : '*Opal-Simd-Bytecode' }
 IRBytecodeGenerator >> addFloat32Vector [
 
 	stack pop: 2.
@@ -9,7 +9,7 @@ IRBytecodeGenerator >> addFloat32Vector [
 	^ encoder genAddFloat32Vector
 ]
 
-{ #category : #'*Opal-Simd-Bytecode' }
+{ #category : '*Opal-Simd-Bytecode' }
 IRBytecodeGenerator >> addFloat64Vector [
 
 	stack pop: 2.
@@ -18,7 +18,7 @@ IRBytecodeGenerator >> addFloat64Vector [
 	^ encoder genAddFloat64Vector
 ]
 
-{ #category : #'*Opal-Simd-Bytecode' }
+{ #category : '*Opal-Simd-Bytecode' }
 IRBytecodeGenerator >> pushFloat32ArrayToRegister [
 
 	stack pop: 2.
@@ -27,7 +27,7 @@ IRBytecodeGenerator >> pushFloat32ArrayToRegister [
 	^ encoder genPushFloat32ArrayToRegister
 ]
 
-{ #category : #'*Opal-Simd-Bytecode' }
+{ #category : '*Opal-Simd-Bytecode' }
 IRBytecodeGenerator >> pushFloat64ArrayToRegister [
 
 	stack pop: 2.
@@ -36,7 +36,7 @@ IRBytecodeGenerator >> pushFloat64ArrayToRegister [
 	^ encoder genPushFloat64ArrayToRegister
 ]
 
-{ #category : #'*Opal-Simd-Bytecode' }
+{ #category : '*Opal-Simd-Bytecode' }
 IRBytecodeGenerator >> storeFloat32RegisterIntoArray [
 
 	stack pop: 3.
@@ -45,7 +45,7 @@ IRBytecodeGenerator >> storeFloat32RegisterIntoArray [
 	^ encoder genStoreFloat32RegisterIntoArray
 ]
 
-{ #category : #'*Opal-Simd-Bytecode' }
+{ #category : '*Opal-Simd-Bytecode' }
 IRBytecodeGenerator >> storeFloat64RegisterIntoArray [
 
 	stack pop: 3.
