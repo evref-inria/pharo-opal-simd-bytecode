@@ -1,6 +1,6 @@
 Class {
 	#name : 'IRAddFloat64Vector',
-	#superclass : 'IRInstruction',
+	#superclass : 'OCIRInstruction',
 	#category : 'Opal-Simd-Bytecode',
 	#package : 'Opal-Simd-Bytecode'
 }

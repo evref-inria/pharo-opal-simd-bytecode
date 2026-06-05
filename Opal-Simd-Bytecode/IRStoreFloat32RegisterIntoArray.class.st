@@ -1,6 +1,6 @@
 Class {
 	#name : 'IRStoreFloat32RegisterIntoArray',
-	#superclass : 'IRInstruction',
+	#superclass : 'OCIRInstruction',
 	#category : 'Opal-Simd-Bytecode',
 	#package : 'Opal-Simd-Bytecode'
 }

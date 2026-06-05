@@ -1,7 +1,7 @@
-Extension { #name : 'IRBuilderTest' }
+Extension { #name : 'OCIRBuilderTest' }
 
 { #category : '*Opal-Simd-Bytecode' }
-IRBuilderTest >> testAddVector [
+OCIRBuilderTest >> testAddVector [
 
 	| iRMethod aCompiledMethod |
 	

@@ -1,37 +1,37 @@
-Extension { #name : 'IRInstruction' }
+Extension { #name : 'OCIRInstruction' }
 
 { #category : '*Opal-Simd-Bytecode' }
-IRInstruction class >> addFloat32Vector [
+OCIRInstruction class >> addFloat32Vector [
 	
 	^ IRAddFloat32Vector new
 ]
 
 { #category : '*Opal-Simd-Bytecode' }
-IRInstruction class >> addFloat64Vector [ 
+OCIRInstruction class >> addFloat64Vector [ 
 	
 	^ IRAddFloat64Vector new
 ]
 
 { #category : '*Opal-Simd-Bytecode' }
-IRInstruction class >> pushFloat32ArrayToRegister [
+OCIRInstruction class >> pushFloat32ArrayToRegister [
 	
 	^ IRPushFloat32ArrayToRegister new
 ]
 
 { #category : '*Opal-Simd-Bytecode' }
-IRInstruction class >> pushFloat64ArrayToRegister [
+OCIRInstruction class >> pushFloat64ArrayToRegister [
 	
 	^ IRPushFloat64ArrayToRegister new
 ]
 
 { #category : '*Opal-Simd-Bytecode' }
-IRInstruction class >> storeFloat32RegisterIntoArray [
+OCIRInstruction class >> storeFloat32RegisterIntoArray [
 	
 	^ IRStoreFloat32RegisterIntoArray new
 ]
 
 { #category : '*Opal-Simd-Bytecode' }
-IRInstruction class >> storeFloat64RegisterIntoArray [
+OCIRInstruction class >> storeFloat64RegisterIntoArray [
 	
 	^ IRStoreFloat64RegisterIntoArray new
 ]
